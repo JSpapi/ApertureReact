@@ -1,0 +1,38 @@
+.root {
+  width: 100%;
+  margin-top: 15px;
+
+}
+
+.list {
+  display: flex;
+  justify-content: flex-end;  
+  color: var(--white);
+  gap: 15px;
+  margin-right: 50px;
+
+  @media (max-width: 880px) {
+    justify-content: center;
+    margin-right: 0;
+  }
+  
+  li {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    display: flex;
+    gap: 5px;
+
+	 &:nth-child(3){
+		img{
+			width: 32px;
+			height: 16px;
+		}
+	 }
+
+    img {
+      width: 16px;
+      height: 16px;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.section-title {
+  text-align: center;
+  font-size: 40px;
+  line-height: 42px;
+  color: var(--white);
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.section-subtitle {
+  font-size: 23px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: 400;
+  color: var(--gray);
+}
+
+.content-subtitle {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-regular {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.white {
+  color: var(--white);
+}
+.gray {
+  color: var(--gray);
+}
