@@ -26,7 +26,7 @@ export const Clients = () => {
 
           <div className={clients.items}>
             {clientsLogo.map((logo) => (
-              <div className={clients.item}>
+              <div className={clients.logo} key={logo}>
                 <img src={logo} alt="" />
               </div>
             ))}

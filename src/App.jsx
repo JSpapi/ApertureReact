@@ -3,6 +3,7 @@ import { About } from "./components/about/About";
 import { Header } from "./components/header/Header";
 import { Navbar } from "./components/navbar/Navbar";
 import { Example } from "./components/workExamples/Example";
+import logo from "./assets/imgs/logo.svg";
 import exampleWork1 from "./assets/imgs/sectionBg/exampleWork-1.png";
 import exampleWork2 from "./assets/imgs/sectionBg/exampleWork-2.png";
 import exampleWork3 from "./assets/imgs/sectionBg/exampleWork-3.png";
@@ -10,12 +11,13 @@ import { Tools } from "./components/Usedtools/Tools";
 import { Clients } from "./components/pastClients/Clients";
 import { Connect } from "./components/getInTouch/Connect";
 import "./styles/App.scss";
+import { Footer } from "./components/footer/Footer";
 
 function App() {
   return (
     <div className="App">
       {/* NAVBAR----------------------- */}
-      <Navbar />
+      <Navbar logo={logo}/>
       {/*HEADER----------------------- */}
       <Header
         settings={{
@@ -84,6 +86,8 @@ function App() {
         {/*GET IN TOUCH  SECTION----------------------- */}
         <Connect />
       </div>
+      {/*FOOTER----------------------- */}
+      <Footer logo={logo}/>
     </div>
   );
 }

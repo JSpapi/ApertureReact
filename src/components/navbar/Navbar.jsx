@@ -1,10 +1,9 @@
 import React, { useState } from "react";
-import logo from "../../assets/imgs/logo.svg";
 import nav from "./Navbar.module.scss";
 
 import { RxHamburgerMenu } from "react-icons/rx";
 import { AiOutlineClose } from "react-icons/ai";
-export const Navbar = () => {
+export const Navbar = ({logo}) => {
   const [navbar, setNavbar] = useState(false)
   const [scroll, setScroll] = useState(0);
 
