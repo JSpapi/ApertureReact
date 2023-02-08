@@ -1,5 +1,5 @@
 .root {
-  padding: 86px 0 40px 0;
+  padding: 86px 0 70px 0;
   height: 98vh;
   background: url("../../assets/imgs/header-bg.png") no-repeat center / cover;
   display: flex;
@@ -9,7 +9,7 @@
   position: relative;
 
   @media (max-width: 650px) {
-    padding: 86px 0 20px 0;
+    padding: 86px 0 50px 0;
   }
 }
 

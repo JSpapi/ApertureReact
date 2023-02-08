@@ -1,4 +1,5 @@
 import React from "react";
+import { Title } from "../sectionTitle/Title";
 import about from "./About.module.scss";
 import { CardList } from "./CardList";
 export const About = () => {
@@ -6,13 +7,11 @@ export const About = () => {
     <section className={about.root}>
       <div className="container">
         <div className={about.content}>
-          <h2 className={[about.title, "section-title"].join(" ")}>
-            What we do.
-          </h2>
-          <h3 className={[about.subtitle, "section-subtitle"].join(" ")}>
-            The areas that we're specialized in.
-          </h3>
-			 <CardList/>
+          <Title
+            title="What we do."
+            subtitle="The areas that we're specialized in."
+          />
+          <CardList />
         </div>
       </div>
     </section>

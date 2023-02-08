@@ -2,7 +2,7 @@ import React from "react";
 import { Camera } from "../cameraSettings/Camera";
 import header from "./Header.module.scss";
 
-export const Header = () => {
+export const Header = ({settings}) => {
   return (
     <header className={header.root}>
       <div className="container">
@@ -21,12 +21,7 @@ export const Header = () => {
         </div>
       </div>
       <Camera
-        settings={{
-          shutter: "1/2000s",
-          aperture: "f/11",
-          iso: "100",
-          location: "Iceland",
-        }}
+        settings={settings}
       />
     </header>
   );

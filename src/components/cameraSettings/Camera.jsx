@@ -4,7 +4,7 @@ import icon1 from "../../assets/imgs/cameraSetting/shutter.svg";
 import icon2 from "../../assets/imgs/cameraSetting/aperture.svg";
 import icon3 from "../../assets/imgs/cameraSetting/iso.svg";
 import icon4 from "../../assets/imgs/cameraSetting/loaction.svg";
-export const Camera = ({ settings }) => {
+export const Camera = ({settings}) => {
   return (
     <div className={camera.root}>
       <ul className={camera.list}>
