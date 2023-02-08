@@ -6,8 +6,10 @@ import { Example } from "./components/workExamples/Example";
 import exampleWork1 from "./assets/imgs/sectionBg/exampleWork-1.png";
 import exampleWork2 from "./assets/imgs/sectionBg/exampleWork-2.png";
 import exampleWork3 from "./assets/imgs/sectionBg/exampleWork-3.png";
-import "./styles/App.scss";
 import { Tools } from "./components/Usedtools/Tools";
+import { Clients } from "./components/pastClients/Clients";
+import { Connect } from "./components/getInTouch/Connect";
+import "./styles/App.scss";
 
 function App() {
   return (
@@ -64,6 +66,23 @@ function App() {
           }}
         />
         {/*CLIENTS  SECTION----------------------- */}
+        <Clients />
+        {/*EXAMPLE  SECTION----------------------- */}
+        <Example
+          img={exampleWork3}
+          title={"Star fall in the Himalayas"}
+          text={
+            "Nulla rhoncus feugiat eros quis consectetur. Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula."
+          }
+          settings={{
+            shutter: "6''",
+            aperture: "f/11",
+            iso: "800",
+            location: "Nepal",
+          }}
+        />
+        {/*GET IN TOUCH  SECTION----------------------- */}
+        <Connect />
       </div>
     </div>
   );
