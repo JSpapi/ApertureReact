@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/ApertureReact/static/css/main.6415f4cd.css",
+    "main.js": "/ApertureReact/static/js/main.7c2bef75.js",
+    "static/media/header-bg.png": "/ApertureReact/static/media/header-bg.610285af2acdbc600e3f.png",
+    "static/media/exampleWork-2.png": "/ApertureReact/static/media/exampleWork-2.fd7a218c733d58ba7eb3.png",
+    "static/media/card-3.png": "/ApertureReact/static/media/card-3.d7f37f17e1fcb39af4d9.png",
+    "static/media/exampleWork-3.png": "/ApertureReact/static/media/exampleWork-3.350758b43f101da10813.png",
+    "static/media/tools.png": "/ApertureReact/static/media/tools.1cfa588b9756c13cc88f.png",
+    "static/media/card-4.png": "/ApertureReact/static/media/card-4.a90a08d892aff0916ea5.png",
+    "static/media/exampleWork-1.png": "/ApertureReact/static/media/exampleWork-1.d5f71ca24d41ff1233a1.png",
+    "static/media/card-2.png": "/ApertureReact/static/media/card-2.ff17fdd64e75df8f079f.png",
+    "static/media/card-1.png": "/ApertureReact/static/media/card-1.3ede0a9fff51915025fa.png",
+    "static/media/logo.svg": "/ApertureReact/static/media/logo.f1090fde345796abb705497811140bbc.svg",
+    "static/media/iso.svg": "/ApertureReact/static/media/iso.069a2902647cd2d0bf4d7a1a54fa1c49.svg",
+    "static/media/shutter.svg": "/ApertureReact/static/media/shutter.d595bd67ceaec744f060f212759e99be.svg",
+    "static/media/btnIcon.svg": "/ApertureReact/static/media/btnIcon.2f0e6246cae3534c582510216361d1cd.svg",
+    "static/media/aperture.svg": "/ApertureReact/static/media/aperture.9be11697389ad990e1016d994573a50c.svg",
+    "static/media/loaction.svg": "/ApertureReact/static/media/loaction.e716488dafe92536b16fa66f2307adc5.svg",
+    "index.html": "/ApertureReact/index.html",
+    "main.6415f4cd.css.map": "/ApertureReact/static/css/main.6415f4cd.css.map",
+    "main.7c2bef75.js.map": "/ApertureReact/static/js/main.7c2bef75.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6415f4cd.css",
+    "static/js/main.7c2bef75.js"
+  ]
+}
